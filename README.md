@@ -21,7 +21,6 @@ It allows us to easily send and recieve data to and from our server without relo
 ##JSON API
 We want to be able to respond to our AJAX requests with the exact data it needs
 
-* Clone this [app](https://github.com/litterbox-sf-fall/LibrarySPA)
 * GOAL: Compare the differences in the instruments vs. the books controller
 
 ##SPA CRUD
