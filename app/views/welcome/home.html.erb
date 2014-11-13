@@ -1,0 +1,12 @@
+<h1>AJAX It Up</h1>
+<!-- Container to append loaded books it to -->
+<div id="container"></div>
+
+<!-- Add a new Book "form" -->
+<input id="book-title-input" type="text" placeholder="Title">
+<input id="book-author-input" type="text" placeholder="Author">
+<button class="btn btn-success" onclick="Library.addBook()">Save</button>
+
+<script type="text/javascript">
+  Library.loadBooks();
+</script>
