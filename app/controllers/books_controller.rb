@@ -1,25 +1,24 @@
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :update, :destroy]
-  respond_to :json, :html
 
   def index
-    respond_with Book.all
+    render json: Book.all
   end
  
   def create
-    respond_with Book.create(book_params)
+    render json: Book.create(book_params)
   end
  
   def show
-    respond_with @book
+    render json: @book
   end
  
   def update
-    respond_with @book.update(book_params)
+    render json: @book.update(book_params)
   end
  
   def destroy
-    respond_with @book.destroy
+    render json: @book.destroy
   end
  
   private

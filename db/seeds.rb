@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Book.delete_all
+Book.create([
+  {title: "Great Gatsby", author: "F Scott Fitzgerald"},
+  {title: "Short History of Nearly Everything", author: "Bill Bryson"},
+  {title: "The Code Book", author: "Simon Singh"}
+])
