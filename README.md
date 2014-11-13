@@ -69,6 +69,7 @@ For help, you can always reference the [JSBin](http://jsbin.com/qamocegowe/7/edi
 
 ###Add to our Library
 
+* Comment the line `protect_from_forgery with: :exception` in your **application_controller.rb** file
 * Create two input forms and a button
     * Add `onclick=Library.addBook()` on the button
 * Build on the function called `Library.addBook`
