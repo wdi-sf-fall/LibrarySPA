@@ -60,6 +60,16 @@ For help, you can always reference the [JSBin](http://jsbin.com/qamocegowe/7/edi
 * Add `gem 'handlebars_assets'`
 * Run `bundle`
 * In your `assets/javascripts` create a folder called `templates`
+* Make sure your application.js looks something like this:
+
+```
+//= require jquery
+//= require jquery_ujs
+//= require handlebars.runtime
+//= require turbolinks
+//= require_tree ./templates
+//= require_tree .
+```
 * Inside templates create a folder called `books`
 * Inside books create a file called `book.hbs`
 * In the `loadBooks` function reference your template using `HandlebarsTemplates["books/book"](book)
