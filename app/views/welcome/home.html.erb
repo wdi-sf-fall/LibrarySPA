@@ -3,6 +3,10 @@
 <!-- Container to append loaded books it to -->
 <div id="container"></div>
 
+<span>Title: </span><input type="text" id="book-title-input">
+<span>Author: </span><input type="text" id="book-author-input">
+<button onclick="Library.addBook()">Save</button>
+
 <script type="text/javascript">
   Library.loadBooks();
 </script>
