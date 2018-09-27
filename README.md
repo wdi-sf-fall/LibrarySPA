@@ -42,7 +42,7 @@ Discussion Questions
 
 ###Fill the library
 
-1) Create a `loadBooks` function in the **books.js** file that fetches all the the books in the database 
+1) Create a `loadBooks` function in the **books.js** file that fetches all the books in the database 
 
 For help, you can always reference the [JSBin](http://jsbin.com/qamocegowe/7/edit?html,js,output) example on hitting the OMDB API with AJAX.
 
